@@ -1,0 +1,10 @@
+#server:
+#  port: 8081
+
+dbConnector:
+  host: 'https://old-seminar-2-back-1.onrender.com'
+  updateAttendnce: /api/db/attendances/updateAttendanceStatus
+  addAttendanceList: /api/db/attendances/addList
+  getByStudentId: /api/db/attendances/getAllByStudentId/
+  getAllAttendance: /api/db/attendances/all
+
